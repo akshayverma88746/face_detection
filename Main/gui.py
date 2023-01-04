@@ -8,6 +8,7 @@ import numpy as np
 import cv2 
 import os 
 import matplotlib.pyplot as plt
+
 # ----------------------------------------Open Image ------------------------------------
 def browsefunc1():
       filename = askopenfilename(filetypes=(("jpg file", "*.jpg"), ("png file ",'*.png'), ("All files", "*.*"),))
